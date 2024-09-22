@@ -26,6 +26,8 @@ Langkah pertama adalah melakukan instalasi laravelnya yaitu sebagai berikut
             
    -    Lakukan perintah dibawah ini untuk migrasi database dan database yang digunakan adalah MySQL:
    -        php artisan migrate
+   -    Jalankan perintah ini untuk melakukan seeding data pada database
+   -         php artisan db:seed
    -    Setelah itu jalankan aplikasi laravel dengan perintah dibawah ini:
    -        php artisan serve
 
