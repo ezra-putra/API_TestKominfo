@@ -35,6 +35,7 @@ Langkah pertama adalah melakukan instalasi laravelnya yaitu sebagai berikut
    -    http://127.0.0.1:8000/api/create-product
    -    http://127.0.0.1:8000/api/update-product/{id}
    -    http://127.0.0.1:8000/api/delete-product/{id}
+   
    dan untuk bagian order adalah:
    -    http://127.0.0.1:8000/api/get-order
    -    http://127.0.0.1:8000/api/create-order
