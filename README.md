@@ -3,7 +3,7 @@
 ## Instalasi Laravel
 
 note: 
-     - Versi Laravel : 8.0 dan Versi PHP : 7.4.
+     -     Versi Laravel : 8.0 dan Versi PHP : 7.4.
 
 Langkah pertama adalah melakukan instalasi laravelnya yaitu sebagai berikut
 1. Lakukan terlebih dahulu Clone Repositories ke direktori yang ingin dituju.
@@ -11,4 +11,9 @@ Langkah pertama adalah melakukan instalasi laravelnya yaitu sebagai berikut
    -        composer install
    -    Apabila composer belum terinstall pada komputer anda maka dapat melakukan instalasi composer dengan mengunduh composer dari link dibawah ini:
    -        https://getcomposer.org/Composer-Setup.exe
-4. 
+   -    Setelah itu jalankan perintah dibawah ini untuk melakukan generate key:
+   -        php artisan key:generate
+   -    Kemudian buat file .env: Salin file .env.example menjadi .env dengan perintah dibawah:
+   -        cp .env-example .env
+
+3. Setelah itu lakukan konfigurasi 
