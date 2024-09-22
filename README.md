@@ -22,8 +22,8 @@ Langkah pertama adalah melakukan instalasi laravelnya yaitu sebagai berikut
             DB_DATABASE=admin_api
             DB_USERNAME=root
             DB_PASSWORD=
-            
-            
+     
+   -    Buka phpmyadmin, lalu create database baru dengan nama admin_api       
    -    Lakukan perintah dibawah ini untuk migrasi database dan database yang digunakan adalah MySQL:
    -        php artisan migrate
    -    Jalankan perintah ini untuk melakukan seeding data pada database
