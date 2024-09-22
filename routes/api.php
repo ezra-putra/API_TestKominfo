@@ -28,6 +28,6 @@ Route::put('/update-product/{id}', [ProductController::class, 'updateProduct']);
 Route::delete('/delete-product/{id}', [ProductController::class, 'deleteProduct']);
 
 Route::get('/get-order', [OrderController::class, 'getOrder']);
-Route::post('create-order', [OrderController::class, 'createOrder']);
+Route::post('/create-order', [OrderController::class, 'createOrder']);
 Route::get('/detail-order/{id}', [OrderController::class, 'detailOrder']);
-Route::delete('delete-order/{id}', [OrderController::class, 'deleteOrder']);
+Route::delete('/delete-order/{id}', [OrderController::class, 'deleteOrder']);
